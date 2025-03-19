@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hwb(30 0% 99%);
+    padding: 10px 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.main-page {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.home {
+    display: none;
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+
+.nothome {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.nothome-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.counter-display {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
